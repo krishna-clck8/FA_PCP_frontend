@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Use Render backend URL for production
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://fa-pcp-backend-perz.onrender.com';
+// Hardcoded Render backend URL
+const API_BASE_URL = 'https://fa-pcp-backend-perz.onrender.com';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
